@@ -10,13 +10,7 @@ Decided to do this challenge in Rust. I've been wanting to learn it for a while 
 
 Part 1 was very straight forward. I just read the input file and looped through all the lines and then a nested looped through all the characters in the line. I then checked if the character `is_numeric()` whether to `append_value()` or not. Then after each character I added the the `first_digit` & `last_digit` to the sum.
 
-<details>
-  <summary>ANSWER SPOILER</summary>
-
-  - Sum: 54239
-  - Time elapsed: 1.0381ms
-
-</details>
+  - Time elapsed: ~1 ms
 
 ### Part 2
 
@@ -24,13 +18,7 @@ The way I solved part 2 was also straight forward. However, it is a bit expensiv
 
 This function takes a slice of characters and an index as input. It creates a HashMap mapping string representations of numbers to their numeric values. It then checks each character in the input slice against these number words. If a match is found, it returns the numeric value of the matched number word. If no match is found, it returns 0.
 
-<details>
-  <summary>ANSWER SPOILER</summary>
-
- - Sum: 55343
- - Time elapsed: 75.9095ms
-
-</details>
+ - Time elapsed: ~75 ms
 
 ## How to run
 
